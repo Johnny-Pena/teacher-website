@@ -18,6 +18,7 @@ export default function App() {
     <Router>
       <Navbar />
       <Routes>
+
         <Route path="/" element={<Index />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/classroom-structure" element={<ClassroomStructure />} />
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/strategies-for-success" element={<Strategies />} />
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/iste-standards" element={<ISTEStandardsPage />} />
+      
       </Routes>
       <Footer />
     </Router>
