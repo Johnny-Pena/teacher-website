@@ -7,7 +7,7 @@ export default function ClassroomArrangement() {
                     <h3 className="text-lg mb-2">This seating chart is an example of how the classroom will be arranged using my seating chart app Seating Chart Ninja</h3>
                     <div className="flex justify-center">
                         <img 
-                            src="src/assets/SeatingChartScreenshot.png" 
+                            src="/assets/SeatingChartScreenshot.png" 
                             alt="Sample Classroom Seating Chart" 
                             className="max-w-full h-auto rounded-lg shadow-lg border-2 border-emerald-200"
                         />

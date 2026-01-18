@@ -7,7 +7,7 @@ export default function LessonPlanSample() {
                     <div className="bg-emerald-50 p-4 rounded-lg">
                         <div className="overflow-hidden rounded-lg border-2 border-emerald-200 shadow-lg">
                             <iframe 
-                                src="src/assets/LessonPlanSample(JuanPena).pdf"
+                                src="/assets/LessonPlanSample(JuanPena).pdf"
                                 className="w-full h-96 md:h-[600px] lg:h-[700px]"
                                 title="Sample Lesson Plan by Juan Peña"
                                 style={{ border: 'none' }}
@@ -15,7 +15,7 @@ export default function LessonPlanSample() {
                         </div>
                         <div className="text-center mt-4">
                             <a 
-                                href="src/assets/LessonPlanSample(JuanPena).pdf" 
+                                href="/assets/LessonPlanSample(JuanPena).pdf" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"

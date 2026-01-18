@@ -7,7 +7,7 @@ export default function GoTo() {
                     <div className="bg-emerald-50 p-4 rounded-lg">
                         <div className="overflow-hidden rounded-lg border-2 border-emerald-200 shadow-lg">
                             <iframe 
-                                src="src/assets/JuanPenaGoToPage.pdf"
+                                src="/assets/JuanPenaGoToPage.pdf"
                                 className="w-full h-96 md:h-[600px] lg:h-[700px]"
                                 title="Go To Page by Juan Peña"
                                 style={{ border: 'none' }}
@@ -15,7 +15,7 @@ export default function GoTo() {
                         </div>
                         <div className="text-center mt-4">
                             <a 
-                                href="src/assets/JuanPenaGoToPage.pdf" 
+                                href="/assets/JuanPenaGoToPage.pdf" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"

@@ -10,7 +10,7 @@ export default function BioComp() {
     <div className="hero bg-base-100 mb-6">
     <div className="hero-content flex-col lg:flex-row max-w-6xl mx-auto px-4">
       <img
-        src="src/assets/TeacherWebsiteHomePagePic.jpg"
+        src="/assets/TeacherWebsiteHomePagePic.jpg"
         className="w-full rounded-lg shadow-2xl sm:w-1/3"
         alt="Johnny Peña Bio Picture"
         loading="lazy"

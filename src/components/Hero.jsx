@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Hero() {
     return (
         <div
-            className="hero min-h-screen w-full bg-[url('src/assets/EmptyClassroomPic.jpg')] bg-cover bg-center bg-left"
+            className="hero min-h-screen w-full bg-[url('/assets/EmptyClassroomPic.jpg')] bg-cover bg-center bg-left"
         >
             <div className="hero-overlay"></div>
             <div className="hero-content text-neutral-content text-center">
