@@ -7,7 +7,7 @@ import Strategies from './routes/strategies.jsx';
 import ClassroomStructure from './routes/classroom-structure.jsx';
 import ClassroomInstruction from './routes/classroom-instruction.jsx';
 import ResumePage from './routes/resumepage.jsx';
-import ISTEStandards from './components/ISTEStandards.jsx';
+import ISTEStandardsPage from './routes/istestandardspage.jsx';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/classroom-instruction" element={<ClassroomInstruction />} />
         <Route path="/strategies-for-success" element={<Strategies />} />
         <Route path="/resume" element={<ResumePage />} />
-        <Route path="/iste-standards" element={<ISTEStandards />} />
+        <Route path="/iste-standards" element={<ISTEStandardsPage />} />
       </Routes>
       <Footer />
     </Router>
